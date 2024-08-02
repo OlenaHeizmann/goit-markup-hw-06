@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GOIT-MARKUP-HW-05</title>
+    <title>GOIT-MARKUP-HW-06</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -31,7 +31,9 @@
     <header class="page-header">
       <div class="container header-container">
         <nav class="navigation">
-          <a href="./index.html" class="logo-top">Web<span>Studio</span></a>
+          <a href="./index.html" class="logo logo-top"
+            >Web<span class="logo-top-part">Studio</span></a
+          >
           <ul class="page-navigation">
             <li>
               <a href="./index.html" class="navitem navitem-studio">Studio</a>
@@ -40,7 +42,7 @@
             <li><a href="" class="navitem">Contacts</a></li>
           </ul>
         </nav>
-        <address>
+        <address class="header-adress">
           <ul class="contact">
             <li>
               <a href="mailto:info@devstudio.com" class="adritem"
@@ -54,10 +56,83 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="burger-btn">
+          <svg class="burger-icon" width="24px" , height="24px">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu is-open">
+        <div class="container mobile-menu-container">
+          <button type="button" class="mobile-menu-close">
+            <svg class="mobile-close-icon" width="8" height="8" fill="#2e2f42">
+              <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
+          </button>
+          <nav class="mobile-menu-nav">
+            <ul class="mobile-page-navigation">
+              <li>
+                <a
+                  href="./index.html"
+                  class="mobile-navitem mobile-navitem-studio"
+                  >Studio</a
+                >
+              </li>
+              <li><a href="" class="mobile-navitem">Portfolio</a></li>
+              <li><a href="" class="mobile-navitem">Contacts</a></li>
+            </ul>
+          </nav>
+          <address class="mobile-header-adress">
+            <ul class="mobile-contact">
+              <li>
+                <a href="mailto:info@devstudio.com" class="mobile-adritem"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+110001111111" class="mobile-adritem"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <div class="mobile-sm-container">
+            <ul class="mobile-social-media">
+              <li class="mobile-social-media-icon">
+                <a href="" target="_blank" class="mobile-sm-link">
+                  <svg class="sm-icon" width="16" height="16" fill="#F4F4FD">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-social-media-icon">
+                <a href="" target="_blank" class="mobile-sm-link">
+                  <svg class="sm-icon" width="16" height="16" fill="#F4F4FD">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-social-media-icon">
+                <a href="" target="_blank" class="mobile-sm-link">
+                  <svg class="sm-icon" width="16" height="16" fill="#F4F4FD">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-social-media-icon">
+                <a href="" target="_blank" class="mobile-sm-link">
+                  <svg class="sm-icon" width="16" height="16" fill="#F4F4FD">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
 
-    <main>
+    <!-- <main>
       <section class="hero">
         <div class="container hero-container">
           <h1 class="main-titel">
@@ -484,8 +559,8 @@
     <footer class="footer">
       <div class="container footer-container">
         <div class="footer-logo-p">
-          <a href="./index.html" class="logo-down"
-            >Web<span class="logstudio">Studio</span></a
+          <a href="./index.html" class="logo logo-down"
+            >Web<span class="logo-footer-part">Studio</span></a
           >
           <p class="footer-deskription">
             Increase the flow of customers and for your business with digital
@@ -636,6 +711,6 @@
           <button class="form-send-btn">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
   </body>
 </html>
