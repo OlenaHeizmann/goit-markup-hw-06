@@ -62,24 +62,28 @@
           </svg>
         </button>
       </div>
-      <div class="mobile-menu is-open">
+      <div class="mobile-menu">
         <div class="container mobile-menu-container">
           <button type="button" class="mobile-menu-close">
             <svg class="mobile-close-icon" width="8" height="8" fill="#2e2f42">
-              <use href="./images/icons.svg#icon-phone"></use>
+              <use href="./images/icons.svg#icon-close"></use>
             </svg>
           </button>
           <nav class="mobile-menu-nav">
             <ul class="mobile-page-navigation">
-              <li>
+              <li class="mobile-nav-item">
                 <a
                   href="./index.html"
                   class="mobile-navitem mobile-navitem-studio"
                   >Studio</a
                 >
               </li>
-              <li><a href="" class="mobile-navitem">Portfolio</a></li>
-              <li><a href="" class="mobile-navitem">Contacts</a></li>
+              <li class="mobile-nav-item">
+                <a href="" class="mobile-navitem">Portfolio</a>
+              </li>
+              <li class="mobile-nav-item">
+                <a href="" class="mobile-navitem">Contacts</a>
+              </li>
             </ul>
           </nav>
           <address class="mobile-header-adress">
@@ -100,28 +104,28 @@
             <ul class="mobile-social-media">
               <li class="mobile-social-media-icon">
                 <a href="" target="_blank" class="mobile-sm-link">
-                  <svg class="sm-icon" width="16" height="16" fill="#F4F4FD">
+                  <svg class="sm-icon" width="24" height="24" fill="#F4F4FD">
                     <use href="./images/icons.svg#icon-instagram"></use>
                   </svg>
                 </a>
               </li>
               <li class="mobile-social-media-icon">
                 <a href="" target="_blank" class="mobile-sm-link">
-                  <svg class="sm-icon" width="16" height="16" fill="#F4F4FD">
+                  <svg class="sm-icon" width="24" height="24" fill="#F4F4FD">
                     <use href="./images/icons.svg#icon-twitter"></use>
                   </svg>
                 </a>
               </li>
               <li class="mobile-social-media-icon">
                 <a href="" target="_blank" class="mobile-sm-link">
-                  <svg class="sm-icon" width="16" height="16" fill="#F4F4FD">
+                  <svg class="sm-icon" width="24" height="24" fill="#F4F4FD">
                     <use href="./images/icons.svg#icon-facebook"></use>
                   </svg>
                 </a>
               </li>
               <li class="mobile-social-media-icon">
                 <a href="" target="_blank" class="mobile-sm-link">
-                  <svg class="sm-icon" width="16" height="16" fill="#F4F4FD">
+                  <svg class="sm-icon" width="24" height="24" fill="#F4F4FD">
                     <use href="./images/icons.svg#icon-linkedin"></use>
                   </svg>
                 </a>
@@ -132,7 +136,7 @@
       </div>
     </header>
 
-    <!-- <main>
+    <main>
       <section class="hero">
         <div class="container hero-container">
           <h1 class="main-titel">
@@ -142,7 +146,7 @@
           <button type="button" class="hero-but">Order Service</button>
         </div>
       </section>
-      <section class="features">
+      <section class="sektion features">
         <div class="container feauters-container">
           <h2 class="visually-hidden">Our features</h2>
           <ul class="main-feauters-list">
@@ -197,19 +201,19 @@
           </ul>
         </div>
       </section>
-      <section class="team">
+      <section class="sektion team">
         <div class="container team-container">
-          <h2 class="section-title team-title">Our Team</h2>
+          <h2 class="title team-title">Our Team</h2>
           <ul class="team-list">
-            <li class="teammember">
+            <li class="teammember teammember-mark">
               <img
-                src="./images/img(1).jpg"
+                src="./images/markx1.jpg"
                 alt="Mark Guerrero foto"
                 width="264"
                 height="260"
               />
               <div class="card-member-funktion">
-                <h3 class="title team-list-title">Mark Guerrero</h3>
+                <h3 class="team-list-title">Mark Guerrero</h3>
                 <p class="member-funktion">Product Designer</p>
                 <ul class="social-media">
                   <li class="social-media-icon">
@@ -271,7 +275,7 @@
                 height="260"
               />
               <div class="card-member-funktion">
-                <h3 class="title team-list-title">Tom Ford</h3>
+                <h3 class="team-list-title">Tom Ford</h3>
                 <p class="member-funktion">Frontend Developer</p>
                 <ul class="social-media">
                   <li class="social-media-icon">
@@ -333,7 +337,7 @@
                 height="260"
               />
               <div class="card-member-funktion">
-                <h3 class="title team-list-title">Camila Garcia</h3>
+                <h3 class="team-list-title">Camila Garcia</h3>
                 <p class="member-funktion">Marketing</p>
                 <ul class="social-media">
                   <li class="social-media-icon">
@@ -395,7 +399,7 @@
                 height="260"
               />
               <div class="card-member-funktion">
-                <h3 class="title team-list-title">Daniel Wilson</h3>
+                <h3 class="team-list-title">Daniel Wilson</h3>
                 <p class="member-funktion">UI Designer</p>
                 <ul class="social-media">
                   <li class="social-media-icon">
@@ -452,9 +456,9 @@
           </ul>
         </div>
       </section>
-      <section class="portfolio">
+      <section class="sektion portfolio">
         <div class="container">
-          <h2 class="section-title portfolio-sektion-titel">Our Portfolio</h2>
+          <h2 class="title portfolio-sektion-titel">Our Portfolio</h2>
           <ul class="portfolio-list">
             <li class="portfolio-list-item">
               <div class="portfolio-img">
@@ -466,7 +470,7 @@
                 </p>
               </div>
               <div class="portfolio-item-diskr">
-                <h3 class="title">Banking App</h3>
+                <h3 class="portfolio-title">Banking App</h3>
                 <p class="supply">App</p>
               </div>
             </li>
@@ -484,7 +488,7 @@
                 </p>
               </div>
               <div class="portfolio-item-diskr">
-                <h3 class="title">Cashless Payment</h3>
+                <h3 class="portfolio-title">Cashless Payment</h3>
                 <p class="supply">Marketing</p>
               </div>
             </li>
@@ -502,7 +506,7 @@
                 </p>
               </div>
               <div class="portfolio-item-diskr">
-                <h3 class="title">Meditation App</h3>
+                <h3 class="portfolio-title">Meditation App</h3>
                 <p class="supply">App</p>
               </div>
             </li>
@@ -516,7 +520,7 @@
                 </p>
               </div>
               <div class="portfolio-item-diskr">
-                <h3 class="title">Taxi Service</h3>
+                <h3 class="portfolio-title">Taxi Service</h3>
                 <p class="supply">Marketing</p>
               </div>
             </li>
@@ -534,7 +538,7 @@
                 </p>
               </div>
               <div class="portfolio-item-diskr">
-                <h3 class="title">Screen Illustrations</h3>
+                <h3 class="portfolio-title">Screen Illustrations</h3>
                 <p class="supply">Design</p>
               </div>
             </li>
@@ -548,7 +552,7 @@
                 </p>
               </div>
               <div class="portfolio-item-diskr">
-                <h3 class="title">Online Courses</h3>
+                <h3 class="portfolio-title">Online Courses</h3>
                 <p class="supply">Marketing</p>
               </div>
             </li>
@@ -622,7 +626,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-close-btn">
           <svg
@@ -711,6 +715,6 @@
           <button class="form-send-btn">Send</button>
         </form>
       </div>
-    </div> -->
+    </div>
   </body>
 </html>
