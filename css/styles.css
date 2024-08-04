@@ -474,7 +474,6 @@ body {
 .footer-container {
   background-color: #2e2f42;
   padding: 96px 16px;
-  height: 664px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -884,9 +883,9 @@ body {
     flex-basis: calc((100% - 24px) / 2);
   }
 
-  .footer-container {
+  /* .footer-container {
     height: 456px;
-  }
+  } */
 
   .footer-container {
     justify-content: flex-start;
@@ -1021,12 +1020,15 @@ body {
   .footer {
     box-sizing: border-box;
     background-color: #2e2f42;
-    padding: 100px 159px 100px 156px;
+    /* padding: 100px 159px 100px 156px; */
     height: 312px;
-    width: 100%;
+    /* width: 100%; */
   }
 
   .sm-link-footer {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .footer-container {
   }
 }
