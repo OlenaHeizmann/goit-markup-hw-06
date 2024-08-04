@@ -149,7 +149,11 @@ body {
 
 @media (min-resolution: 192dpi) {
   .hero {
-    background-image: url(../images/hero-bg.png);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg.png);
   }
 }
 
@@ -538,9 +542,6 @@ body {
   margin-left: 16px;
 }
 
-/* .footer-form-wraper {
-  margin-left: auto;
-} */
 .footer-form {
   display: flex;
   gap: 16px;
@@ -829,7 +830,11 @@ body {
 
   @media (min-resolution: 192dpi) {
     .hero {
-      background-image: url(../images/bgtabletx2.jpg);
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/bgtabletx2.jpg);
     }
   }
 
@@ -963,7 +968,11 @@ body {
 
   @media (min-resolution: 192dpi) {
     .hero {
-      background-image: url(../images/people-officex2.jpg);
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-officex2.jpg);
     }
   }
 
